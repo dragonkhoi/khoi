@@ -1,0 +1,174 @@
+@font-face {
+  font-family: rufi;
+  src: url(fonts/ReemKufi-Regular.ttf);
+}
+body {
+  font-family: rufi, sans-serif;
+  /*z-index: -3;*/
+  background-color: rgba(255, 255, 255, 1);
+  /*background: #328CC1;
+  background: -webkit-radial-gradient(10% 10%, closest-side, #1a4a65, #328CC1);
+  background: -o-radial-gradient(10% 10%, closest-side, #1a4a65, #328CC1);
+  background: -moz-radial-gradient(10% 10%, closest-side, #1a4a65, #328CC1);
+  background: radial-gradient(closest-side at 27% 45%, #1a4a65, #328CC1);*/
+  /*background-image: url("images/background_light.jpg");*/
+  overflow-x: hidden;
+}
+td{
+  width:27%;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /*border: 2px solid green;*/
+}
+td h2{
+
+}
+#mainDiv{
+  /*border: 2px solid blue;*/
+  position: relative;
+  top: -10px;
+  left: 10%;
+  /*width: 101.5%;*/
+  height: 100vh;
+  /*border: 3px solid orange;*/
+}
+#infoPanel {
+  position: relative;
+  /*border: 3px solid green;*/
+  top: 35%;
+  float: left;
+  width: 60vh;
+  height: 40vh;
+  /*border-radius: 50%;*/
+  color: #FFF;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 1px 2px 4px black;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  /*top: 300px;
+  left: 40%;*/
+}
+#boxForCircles {
+  position: relative;
+  /*border: 3px solid blue;*/
+  height: 90vh;
+  width: 90vh;
+  float: left;
+}
+a{
+  color: rgb(255, 236, 179);
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover, a:visited:hover{
+  color: rgb(255, 210, 77);
+}
+a:visited{
+  color: rgb(255, 236, 179);
+  text-decoration: none;
+}
+
+.imageCircle{
+  border-radius: 50%;
+  height: 30%;
+}
+.experienceTitle {
+  height: 10%;
+}
+.trifold{
+  width: 27%;
+  float: left;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 4%;
+}
+.sideLink{
+  width: 100%;
+}
+#sideBar{
+  position: fixed;
+  right: 5%;
+  width: 10%;
+  z-index: 2;
+}
+.infoBoxClass {
+  position: absolute;
+  border: 3px solid blue;
+  height: 20px;
+  width: 20px;
+  /*display: none;*/
+}
+.circleClass:hover .infoBoxClass{
+  display: block;
+}
+.circleClass {
+  position: absolute;
+  display: table;
+  z-index: 5;
+  border: 1px solid rgba(20, 20, 20, 0.3);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-size: contain;
+  background-repeat: none;
+  background-position: center center;
+  background-color: #1D2731;
+  /*background: #000;*/
+  color: white;
+  transition: 0.5s;
+  box-shadow: 0px 2px 4px black;
+}
+
+.circleClass h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 4.3em;
+}
+
+.sectionLabel {
+  position: absolute;
+}
+
+
+#backgroundMain {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#experience {
+  top: 110px;
+  left: 790px;
+}
+#skills {
+  top: 370px;
+  left: 870px;
+}
+#projects {
+  top: 600px;
+  left: 700px;
+}
+#awards {
+  top: 600px;
+  left: 350px;
+}
+#languages {
+  top: 500px;
+  left: 250px;
+}
+#education {
+  left: 130px;
+  top: 280px;
+}
+
+#experienceDiv {
+  height: 100vh;
+}
